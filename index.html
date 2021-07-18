@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Layout Mondrian</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section>
+    <h2>Blue Yellow Red</h2>
+    <div class="frame frame-blue-yellow-red">
+      <div class="grid grid-blue-yellow-red">
+        <div class="blue row-spanner"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="white row-spanner"></div>
+        <div class="red row-spanner spanner"></div>
+        <div class="yellow"></div>
+        <div class="white"></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Yellow Red Blue</h2>
+    <div class="frame">
+      <div class="grid">
+        <div class="yellow"></div>
+        <div class="white"></div>
+        <div class="white spanner"></div>
+        <div class="red"></div>
+        <div class="blue order-1"></div>
+        <div class="white spanner"></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Yellow Blue</h2>
+    <div class="frame frame-blue-yellow">
+      <div class="grid grid-blue-yellow">
+        <div class="yellow"></div>
+        <div class="white row-spanner"></div>
+        <div class="white spanner-3"></div>
+        <div class="white spanner"></div>
+        <div class="blue"></div>
+        <div class="white spanner"></div>
+        <div class="white spanner"></div>
+      </div>
+    </div>
+  </section>
+</body>
